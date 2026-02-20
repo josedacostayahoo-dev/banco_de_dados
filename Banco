@@ -1,0 +1,14 @@
+comandos-basicos.sql
+-- Criando uma tabela de clientes
+CREATE TABLE clientes (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100),
+    email VARCHAR(100)
+);
+
+-- Inserindo dados na tabela
+INSERT INTO clientes (id, nome, email)
+VALUES (1, 'João', 'joao@email.com');
+
+-- Consultando dados
+SELECT * FROM clientes;
